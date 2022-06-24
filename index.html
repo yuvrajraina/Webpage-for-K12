@@ -17,8 +17,9 @@
         var confirmPassword = "admin";
         var password = document.getElementById("pswd").value;
         if (password == confirmPassword) {  
-         //alert("Welcome you are an absolut chad.");
-         window.location="welcome.html";
+            var url = 'www.google.com';
+
+            document.getElementById('myIframe').src = url;
         }
         else{
             alert("Passwords do not match.");
